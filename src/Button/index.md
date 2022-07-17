@@ -1,6 +1,6 @@
 ---
 nav:
-  title: 组件
+  title: 组件d
   path: /components
 ---
 
@@ -10,9 +10,9 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'dumi-template';
+import { Foo } from 'dr-components';
 
-export default () => <Foo title="First Demo" />;
+export default () => <Foo title="dddd" />;
 ```
 
 [更多技巧](https://d.umijs.org/guide/demo-principle)

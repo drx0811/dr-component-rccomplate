@@ -1,7 +1,7 @@
 {
-  "private": true,
-  "name": "dumi-template",
-  "version": "1.0.0",
+  "private": false,
+  "name": "dr-components",
+  "version": "1.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/umijs/dumi-template",
+    "url": "https://github.com/drx0811/dr-component-rccomplate",
     "branch": "main"
   },
   "lint-staged": {
@@ -33,6 +33,7 @@
     ]
   },
   "dependencies": {
+    "dr-components": "^1.0.1",
     "react": "^16.12.0"
   },
   "devDependencies": {

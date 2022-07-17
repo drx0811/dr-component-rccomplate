@@ -1,6 +1,6 @@
 import { defineConfig } from 'dumi';
 
-const repo = 'dumi-template';
+const repo = 'dr-react-component';
 
 export default defineConfig({
   title: repo,
@@ -14,6 +14,7 @@ export default defineConfig({
   // Because of using GitHub Pages
   base: `/${repo}/`,
   publicPath: `/${repo}/`,
+  locales: [['zh-CN', '中文']],
   navs: [
     null,
     {
